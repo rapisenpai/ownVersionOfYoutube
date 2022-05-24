@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayTube | Sana'y Ikaw Na Lang MV</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+    
+    <link rel="icon" type="image/x-icon" href="./images/logo6.png">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navBar">
+        <div>
+            <div>
+                <a href="index.html"> <img src="./images/logo3.png" alt="PlayTube" class="playTubeLogo" /> </a>
+            </div>
+            <div>
+                <form class="search" action="#">
+                    <input type="text" placeholder="Search" name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div>
+                <diV class="icons">
+                    <i class="fa fa-search" id="search" style="font-size:24px"></i>
+                    <i class="fa fa-video-camera" style="font-size:24px"></i>
+                    <i class='fa fa-bell' style='font-size:24px'></i>
+                </diV>
+                <div class="profileIcon">
+                    <img src="./images/profile1.jpg" title="Rafhael Lowix A. Homwad">
+                </div>
+            </div>
+        </div>
+        
+    </nav>
+    <!-- Video -->
+    <!-- Row -->
+    <div class="bodyContent">
+        <div class="row">
+            <div class="leftColumn">
+                <div class="videoContainer">
+                    <iframe src="https://www.youtube.com/embed/PDsDbyOI3aw?rel=0" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen></iframe>
+                </div>
+                <div class="detailsContainer">
+                   <div class="videoTitle">
+                        <p class="hashtags">#Trending #Broken #Music</p>
+                        <h3>Sana'y Ikaw Na Lang MV</h3>
+                        
+                        <div class="actionBtn">
+                            <div>
+                                <p class="views">1.4B views | September 16, 2019</p>
+                            </div>
+                            <div class="btns">
+                                    <i class="fa fa-thumbs-o-up" style="font-size:18px; margin-left: 15px;"></i><p>7.4M Likes</p>
+                                    <i class="fa fa-thumbs-o-down" style="font-size:18px; margin-left: 15px;"></i><p>1.8K Dislikes</p>
+                                    <i class="fa fa-list-ul" style="font-size:18px; margin-left: 15px;"></i><p>&nbsp;SAVE</p>
+                            </div>
+                        </div>
+                   </div>
+                    <hr>
+                   <div>
+                   
+                    <div class="containerCh">
+                        <img src="./images/profile1.jpg" title="Rafhael Lowix A. Homwad">
+                        <div class="channelName">
+                            <h4>Rafhael Lowix A. Homwad</h4>
+                            <h6>1.5M Subscribers</h6>
+                            <p>Played by CNHS BAND</p>
+                            <p>Lyrics:</p>
+                            <p>'Di ko maintindihan ang saya na nararamdaman <br>
+                                sa t'wing ika'y kasama ko <br>
+                                Ang dating tawa <span id="dots">...</span><span id="more">ko ay hindi na maipinta <br>
+                                dahil sa'yong ginagawa
+                            
+                                Refrain I: <br>
+                                Ngunit alam kong hindi na <br>
+                                Pwede pang maging tayo <br>
+                                Dahil ikaw ngayon ay <br>
+                                May mahal ng iba... <br><br>
+                                
+                                Churos: <br>
+                                Kaya ako'y humihiling sa mga tala <br>
+                                Kung maaari lang na ibalik sa simula <br>
+                                At hindi ko na sasayangin pa ang oras <br>
+                                Na sayo'y aaminin ang lahat-lahat <br>
+                                Umaasa ako na sana'y ikaw na lang <br><br>
+                                
+                                II <br>
+                                Buhay ko'y nag-iba <br>
+                                Simula nang mawalay ka <br>
+                                Bakit ako'y iniiwasan mo <br>
+                                Ang dating samahan <br>
+                                Ay bigla nalang napalitan <br>
+                                Iba na ang kasa-kasama mo <br><br>
+                                
+                                Refrain II <br>
+                                Kahit alam mong ikaw ang <br>
+                                Aking pinapangarap <br>
+                                Ako ay nananabik <br>
+                                Na ika'y muling mayakap <br>
+                                (Repeat Chorus) <br> <br>
+                                
+                                Bridge  <br>
+                                'Di ko mapigilang <br>
+                                Maiyak kapag ako ay tulala <br>
+                                Iniisip kita parati <br>
+                                Sana'y mapansin mo rin... <br>
+                                (Repeat chorus) <br><br>
+                                </p>
+                            <p>ⓒ 2001 All Rights Reserved.</span></p>
+                            <!-- Thanks to the W3School Tutorials -->
+                            <button onclick="myFunction()" id="myBtn">SHOW MORE</button>  
+                        </div>
+                        <script>
+                            function myFunction() {
+                              var dots = document.getElementById("dots");
+                              var moreText = document.getElementById("more");
+                              var btnText = document.getElementById("myBtn");
+                            
+                              if (dots.style.display === "none") {
+                                dots.style.display = "inline";
+                                btnText.innerHTML = "SHOW MORE"; 
+                                moreText.style.display = "none";
+                              } else {
+                                dots.style.display = "none";
+                                btnText.innerHTML = "SHOW LESS"; 
+                                moreText.style.display = "inline";
+                              }
+                            }
+                            </script>
+                        <div class="channelBtn">
+                            <a href="#" style="text-decoration:none;" class="joinBtn"><h3>JOIN</h3></a>
+                            <a href="#" style="text-decoration:none;" class="subscribeBtn"><h3>SUBSCRIBE</h3></a>
+                        </div>
+                    </div>
+                   </div>
+                    <hr>
+                </div>
+                <div class="commentSection">
+                    <div>
+                        <p>213 Comments</p>
+                    </div>
+                    <div class="commentContainer">
+                        <div class="profileIcon">
+                            <img src="./images/profile1.jpg">
+                        </div>
+                        <div class="channelName">
+                            <h4>Rafhael Lowix A. Homwad</h4>
+                            <h6>3 years ago</h6>
+                            <p>Thank your for watching our very first music video. &#128517;</p>
+                        </div>
+                    </div>
+                    <div class="commentContainer">
+                        <div class="profileIcon">
+                            <img src="./images/profile2.jpg">
+                        </div>
+                        <div class="channelName">
+                            <h4>Eron C. Balasabas</h4>
+                            <h6>1 Month ago</h6>
+                            <p>This song allows me to vent all of my breakdowns, truely this song will never be forgotten &#128151;&#128151;</p>
+                        </div>
+                    </div>
+                    <div class="commentContainer">
+                        <div class="profileIcon">
+                            <img src="./images/profile3.jpg">
+                        </div>
+                        <div class="channelName">
+                            <h4>Lhorelai T. Coso</h4>
+                            <h6>8 months ago</h6>
+                            <p>This was one of my boyfriend's favorite song. He would always sing this song whenever we're together, 
+                                even though he couldn't understand the lyrics. (He's from Davao City and has only been here for just 
+                                over a year). This song never really hits me hard until he broked me. &#128557;</p>
+                        </div>
+                    </div>
+                    <div class="commentContainer">
+                        <div class="profileIcon">
+                            <img src="./images/profile4.jpg">
+                        </div>
+                        <div class="channelName">
+                            <h4>Ana Mae Sumapig</h4>
+                            <h6>5 Months ago</h6>
+                            <p>May you find the love that you really deserve. The love that doesn't control you but the love that accepts and understands you.&#128522;&#128522;</p>
+                        </div>
+                    </div>
+                    <div class="commentContainer">
+                        <div class="profileIcon">
+                            <img src="./images/profile5.jpg">
+                        </div>
+                        <div class="channelName">
+                            <h4>Jeremiah Jayoma</h4>
+                            <h6>1 Month ago</h6>
+                            <p>When you're happy you enjoy the music, when you're sad you understand the lyrics.&#128549;&#128549;</p>
+                        </div>
+                    </div>
+                    <div class="commentContainer">
+                        <div class="profileIcon">
+                            <img src="./images/profile6.jpg" title="Rafhael Lowix A. Homwad">
+                        </div>
+                        <div class="channelName">
+                            <h4>Gerald Alegarbes</h4>
+                            <h6>2 minutes ago</h6>
+                            <p>IT'S 2022 BUT IM STILL VIBING TO THIS SONG!&#128525;</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="rightColumn">
+                <div class="moreVideos">
+                    <div class="categories">
+                        <a href="#"> <h4 class="active">All</h4></a>
+                        <a href="#"> <h4>Live</h4></a>
+                        <a href="#"> <h4>Comedy</h4></a>
+                        <a href="#"> <h4>News</h4></a>
+                    </div>
+                    <div class="displayThumbnail">
+                        <img src="./images/thumbnail1.jpg">
+                        <div class="videoDetails">
+                            <h4>DUELISTS // Official Launch Cinematic Trailer - VALORANT</h4>
+                            <p>VALORANT <i class="fa fa-check-circle" style="font-size:12px; color: gray;"></i></p>
+                            <p>10,763,382 views | June 02, 2020</p>
+                        </div>
+                    </div>
+                    <div class="displayThumbnail">
+                        <img src="./images/thumbnail2.jpg">
+                        <div class="videoDetails">
+                            <h4>Mga Klase Sa Silingan (feat. BJSerye)</h4>
+                            <p>Jomie Hospital <i class="fa fa-check-circle" style="font-size:12px; color: gray;"></i></p>
+                            <p>2,730,873 views | February 19, 2017</p>
+                        </div>
+                    </div>
+                    <div class="displayThumbnail">
+                        <img src="./images/thumbnail3.jpg">
+                        <div class="videoDetails">
+                            <h4>ROWOON(SF9) - No Goodbye In Love(안녕) (2021 KBS Song Festival) I KBS WORLD TV 211217</h4>
+                            <p>KBS WORLD TV <i class="fa fa-check-circle" style="font-size:12px; color: gray;"></i></p>
+                            <p>410,862 views | December 17, 2021</p>
+                        </div>
+                    </div>
+                    <div class="displayThumbnail">
+                        <img src="./images/thumbnail4.jpg">
+                        <div class="videoDetails">
+                            <h4>Rowoon doing his very best</h4>
+                            <p>Carly Bezeau</p>
+                            <p>15,076 views | November 22, 2017</p>
+                        </div>
+                    </div>
+                    <div class="displayThumbnail">
+                        <img src="./images/thumbnail5.jpg">
+                        <div class="videoDetails">
+                            <h4>Creating a magazine layout with CSS</h4>
+                            <p>Kevin Powell <i class="fa fa-check-circle" style="font-size:12px; color: gray;"></i></p>
+                            <p>37,958 views | Streamed live on June 18, 2021</p>
+                        </div>
+                    </div>
+                    <div class="displayThumbnail">
+                        <img src="./images/thumbnail6.jpg">
+                        <div class="videoDetails">
+                            <h4>Tailwind CSS Tutorial - Responsive Card Design</h4>
+                            <p>FrontEndFunn</p>
+                            <p>2,088 views | July 8, 2019</p>
+                        </div>
+                    </div>
+                    <div class="displayThumbnail">
+                        <img src="./images/thumbnail7.jpg">
+                        <div class="videoDetails">
+                            <h4>How To Create A Modal In Javascript and CSS</h4>
+                            <p>Dev Ed <i class="fa fa-check-circle" style="font-size:12px; color: gray;"></i></p>
+                            <p>75,040 views | June 18, 2018</p>
+                        </div>
+                    </div>
+                    <div class="displayThumbnail">
+                        <img src="./images/thumbnail8.jpg">
+                        <div class="videoDetails">
+                            <h4>Anya Shocked face is so amusing! | Spy x Family</h4>
+                            <p>KeiimiTv</p>
+                            <p>1,299 views | April 25, 2022</p>
+                        </div>
+                    </div>
+                    <div class="displayThumbnail">
+                        <img src="./images/thumbnail9.jpg">
+                        <div class="videoDetails">
+                            <h4>Loid Forger Voice Actor / Spy x Family</h4>
+                            <p>Anime Media</p>
+                            <p>86,345 views | April 26, 2022</p>
+                        </div>
+                    </div>
+                    <div class="displayThumbnail">
+                        <img src="./images/thumbnail10.png">
+                        <div class="videoDetails">
+                            <h4>Webinar: DNSC Learning Management System powered by Moodle - 720p version</h4>
+                            <p>Padi Sensei's TV</p>
+                            <p>402 views | June 2, 2020</p>
+                        </div>
+                    </div>
+                    <div class="displayThumbnail">
+                        <img src="./images/thumbnail11.jpg">
+                        <div class="videoDetails">
+                            <h4>TV Patrol Playback | May 21, 2022</h4>
+                            <p>ABS-CBN NEWS <i class="fa fa-check-circle" style="font-size:12px; color: gray;"></i></p>
+                            <p>237,635 views | Premiered 16 hours ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
